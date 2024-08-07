@@ -4,7 +4,7 @@ import bcryptjs from "bcryptjs";
 import { NextRequest, NextResponse } from 'next/server';
 import { sendEmail } from "@/helpers/mailhelper";
 
-dbConfig();
+dbConfig(); 
 
 export async function POST(request) {
   try {
