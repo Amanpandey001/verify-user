@@ -7,3 +7,7 @@ modules and texh used: mailtrap, nodemailer, mongodb atlas, mongoose, nextjs- ja
 i prefer mongodb compass ngl cuz gui but there isnt any tutorial available so, ill be learning using mongodb atlas and ill try to migrate on mongodb compass :D
 
 follow on insta tho: @amanp.5234
+
+## LOGS
+
+7/aug/24- created backend to save user credentials on db and to send automated testing email , no front end developed yet, pls use your own .env things
