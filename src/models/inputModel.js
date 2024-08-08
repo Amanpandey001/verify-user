@@ -7,7 +7,7 @@ const newInput=new Schema({
         unique : [true,"name already exist"]
     },
     email:{
-        type:String,
+        type:String, 
         required:[true,"please enter email"],
     },
     password: {
@@ -16,7 +16,7 @@ const newInput=new Schema({
     },
     isVerified:{
         type:Boolean,
-        default:false
+        default:false,
     },
     isAdmin: {
         type: Boolean,
