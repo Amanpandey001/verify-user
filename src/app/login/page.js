@@ -13,11 +13,12 @@ const Login = () => {
   const [buttondis, setButtondis] = useState(false)
   const [loading, setLoading] = useState(false)
   const onLogin = async () => {
+
     try {
       setLoading(true)
       const res = await axios.post("/api/user/login", user);
       console.log("login success", res.data);
-      router.push("/profile");
+      router.push(`/profile`);
       toast.success("user created successfully")
     } catch (error) {
       console.log("error occured~");
