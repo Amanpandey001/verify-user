@@ -11,3 +11,5 @@ follow on insta tho: @amanp.5234
 ## LOGS
 
 7/aug/24- created backend to save user credentials on db and to send automated testing email , no front end developed yet, pls use your own .env things
+
+8/aug/24= backend creation is almost completed, login, logout, user verification etc, some middleware and optimizations remains that ill do after developing front end, learned- debugging , man the errors , i dont like it
